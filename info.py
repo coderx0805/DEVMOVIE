@@ -18,9 +18,9 @@ API_HASH = environ.get('API_HASH', '7d2c9a5628814e1430b30a1f0dc0165b')
 BOT_TOKEN = environ.get('BOT_TOKEN', '7859288880:AAE8k3pJNNJCkxwJF0loVHgpLp8psnpHia4')
 
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
-USERNAME = environ.get('USERNAME', "https://t.me/Annihilate_Deva")
+USERNAME = environ.get('USERNAME', "https://t.me/Ind_Deva")
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002525011494'))
-MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/NIshumoviesRequestGroup')
+MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/FalconmoviesRequestGroup')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002545071865').split()]
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://coderx0805:EjFHGDShcPT7J2hM@cluster0.bm8jhbj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "TELEGRAM_BOT_INFO")
@@ -35,7 +35,7 @@ STICKERS_IDS = ('CAACAgQAAxkBAAEK99dlfC7LDqnuwtGRkIoacot_dGC4zQACbg8AAuHqsVDaMQe
 FILE_AUTO_DEL_TIMER = int(environ.get('FILE_AUTO_DEL_TIMER', '600'))
 IS_VERIFY = is_enabled('IS_VERIFY', False)
 LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002601173625'))
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/Pbail_Movie_Channel/10")
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/Falcon_Movie_Channel/10")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
 SHORTENER_API = environ.get("SHORTENER_API", "2ad6aacb3fafe08448a1f897438505ff8e2023b8")
 SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'Vplink.in ')
