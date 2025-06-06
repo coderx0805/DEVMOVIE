@@ -17,7 +17,7 @@ API_ID = int(environ.get('API_ID', '26614080'))
 API_HASH = environ.get('API_HASH', '7d2c9a5628814e1430b30a1f0dc0165b')
 BOT_TOKEN = environ.get('BOT_TOKEN', '7859288880:AAE8k3pJNNJCkxwJF0loVHgpLp8psnpHia4')
 
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7538572906').split()]
 USERNAME = environ.get('USERNAME', "https://t.me/Ind_Deva")
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002525011494'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/FalconmoviesRequestGroup')
@@ -61,7 +61,7 @@ UPI_PAY_LOGS = int(environ.get('UPI_PAY_LOGS', '-1002601173625'))
 MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002343865030'))
 
 AUTO_FILTER = is_enabled('AUTO_FILTER', True)
-PORT = os.environ.get('PORT', '8000')
+PORT = os.environ.get('PORT', '8080')
 MAX_BTN = int(environ.get('MAX_BTN', '8'))
 AUTO_DELETE = is_enabled('AUTO_DELETE', True)
 DELETE_TIME = int(environ.get('DELETE_TIME', 300))
